@@ -1,0 +1,11 @@
+version = 0.1
+[default]
+[default.deploy]
+[default.deploy.parameters]
+stack_name = "python-scrapy"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-lqc84x4yoesx"
+s3_prefix = "python-scrapy"
+region = "ap-southeast-1"
+confirm_changeset = true
+capabilities = "CAPABILITY_IAM"
+image_repositories = ["ScrapyFunction=761373906395.dkr.ecr.ap-southeast-1.amazonaws.com/pythonscrapy5a0d9cdc/scrapyfunctiond0c96f5frepo"]

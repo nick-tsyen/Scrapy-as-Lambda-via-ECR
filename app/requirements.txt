@@ -1,0 +1,5 @@
+scrapy==2.6.2
+pandas
+boto3
+botocore
+pyopenssl==22.0.0
